@@ -1,0 +1,16 @@
+[core]
+    remote = dvc-remote
+['remote "remote"']
+    url = s3://dvcdata101/data
+    endpointurl = https://s3.console.aws.amazon.com/s3/buckets/dvcdata101
+    access_key_id = AKIAVNHZW6RT25SFJXSM
+    secret_access_key = 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
+['remote "minio"']
+    url = s3://dvcdata101/data
+    endpointurl = https://s3.console.aws.amazon.com/s3/buckets/dvcdata101
+    access_key_id = AKIAVNHZW6RT25SFJXSM
+    secret_access_key = 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
+['remote "myremote"']
+    url = s3://dvcdata101/data
+['remote "dvc-remote"']
+    url = ../tempdvc-storage
